@@ -10,8 +10,8 @@ using PhotoWebApp.Data;
 namespace PhotoWebApp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250505131923_InitPostgresClean")]
-    partial class InitPostgresClean
+    [Migration("20250505132536_InitPostgres")]
+    partial class InitPostgres
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

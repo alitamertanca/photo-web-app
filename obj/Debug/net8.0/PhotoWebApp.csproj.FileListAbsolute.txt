@@ -157,3 +157,4 @@ C:\Users\Tamer Tanca v4\Desktop\PhotoWebApp\obj\Debug\net8.0\refint\PhotoWebApp.
 C:\Users\Tamer Tanca v4\Desktop\PhotoWebApp\obj\Debug\net8.0\PhotoWebApp.pdb
 C:\Users\Tamer Tanca v4\Desktop\PhotoWebApp\obj\Debug\net8.0\PhotoWebApp.genruntimeconfig.cache
 C:\Users\Tamer Tanca v4\Desktop\PhotoWebApp\obj\Debug\net8.0\ref\PhotoWebApp.dll
+C:\Users\Tamer Tanca v4\Desktop\PhotoWebApp\obj\Debug\net8.0\PhotoWebApp.sourcelink.json

@@ -5,7 +5,7 @@
 namespace PhotoWebApp.Migrations
 {
     /// <inheritdoc />
-    public partial class InitPostgresClean : Migration
+    public partial class InitPostgres : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
