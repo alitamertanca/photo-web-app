@@ -1,0 +1,22 @@
+@model List<string>
+@{
+    ViewData["Title"] = "Kullanıcı Yönetimi";
+}
+<h2>Kullanıcı Listesi</h2>
+<ul>
+@foreach (var user in Model)
+{
+    <li>
+        @user
+        <form asp-action="Delete" method="post" style="display:inline">
+            <input type="hidden" name="username" value="@user" />
+            <button type="submit">Sil</button>
+        </form>
+    </li>
+}
+</ul>
+<h3>Yeni Kullanıcı Ekle</h3>
+<form asp-action="Add" method="post">
+    <input type="text" name="username" required />
+    <button type="submit">Ekle</button>
+</form>

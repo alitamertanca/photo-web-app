@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Video Yükleme";
+}
+<h2>Video Yükle</h2>
+
+<form action="/Video/Upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required />
+    <button type="submit">Yükle</button>
+</form>
+
+@if (TempData["Message"] != null)
+{
+    <p>@TempData["Message"]</p>
+}
